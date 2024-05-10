@@ -1,22 +1,151 @@
-﻿html {
-  font-size: 14px;
+﻿/* General styles */
+.checked {
+    color: #905923;
+}
+/* Change color to a warm brown for coffee theme */
+.fa-star {
+    cursor: pointer;
+}
+
+/* Card styles */
+.card-columns .card:hover .card-img {
+    opacity: 1;
+    -webkit-transform-style: preserve-3d;
+}
+
+.card-columns .card-body {
+    height: 100px;
+    font-family: 'Arial', sans-serif; /* Change font to Arial */
+    background: #f7f3eb; /* Change background to a warm, coffee-like color */
+}
+
+.card-columns .card-img {
+    height: 330px;
+    vertical-align: bottom;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9; /* Increase opacity slightly */
+}
+
+.modal .card-img {
+    height: 500px;
+    vertical-align: bottom;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-columns .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(144, 89, 35, 0.12), 0 4px 8px rgba(144, 89, 35, 0.06); /* Change box-shadow color to a warm brown */
+}
+
+.card-footer {
+    background: #f7f3eb; /* Match card body background */
+}
+
+/* Navbar styles */
+a.navbar-brand {
+    font-family: 'Verdana', sans-serif; /* Change font to Verdana */
+    font-size: 36px; /* Larger font size for emphasis */
+    color: #fff; /* White text for better visibility */
+}
+
+.navbar {
+    background-color: #7b5e3d; /* Lighter brown background */
+    padding: 20px 0; /* Increased padding for better spacing */
+}
+
+.nav-link {
+    font-family: 'Tahoma', sans-serif; /* Change font to Tahoma */
+    font-size: 18px; /* Slightly larger font size for better readability */
+    color: #f7f3eb; /* Creamy white text color */
+}
+
+    .nav-link:hover {
+        color: #fff; /* Change text color on hover for better contrast */
+    }
+
+.navbar-toggler {
+    border-color: #f7f3eb; /* Creamy white border color for toggler button */
+}
+
+.navbar-toggler-icon {
+    background-color: #f7f3eb; /* Creamy white color for toggler icon */
+}
+
+/* Active link style */
+.nav-item.active .nav-link {
+    color: #fff; /* White text color for active link */
+}
+
+/* Responsive font size adjustment */
+@media (max-width: 768px) {
+    a.navbar-brand {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    .nav-link {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Footer styles */
+html {
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-family: 'Georgia', serif; /* Change font to Georgia */
+}
+
+h1 {
+    font-family: 'Courier New', monospace; /* Change font to Courier New */
+}
+
+ul {
+    font-family: 'Comic Sans MS', cursive; /* Change font to Comic Sans MS */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #4d3319;
+    white-space: nowrap;
+    line-height: 60px;
+    font-family: 'Arial', sans-serif; /* Change font to Arial */
 }
