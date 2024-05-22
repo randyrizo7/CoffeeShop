@@ -6,17 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ContosoCrafts.WebSite' " />
   <ItemGroup>
-    <None Remove="Controllers\" />
-    <None Remove="Models\" />
-    <None Remove="Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
     <Folder Include="wwwroot\data\" />
   </ItemGroup>
   <ItemGroup>
