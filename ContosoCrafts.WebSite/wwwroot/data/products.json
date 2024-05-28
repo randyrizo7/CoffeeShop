@@ -7,63 +7,77 @@
     "Title": "Espresso",
     "Description": "A rich, concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee beans.",
     "Ratings": [
-      2
-    ]
+        2
+    ],
+    "Price": ["$3.00", "$4.00", "$5.00"],
+    "Size" : ["Short", "Tall", "Grande"]
   },
-  {
-    "Id": "coffee-latte",
-    "Maker": "coffeelover",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg/440px-Caffe_Latte_at_Pulse_Cafe.jpg",
-    "Url": "https://en.wikipedia.org/wiki/Latte",
-    "Title": "Latte",
-    "Description": "A coffee drink made with espresso and steamed milk, popular for its smooth, creamy texture.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-cappuccino",
-    "Maker": "coffeelover",
-    "img": "https://www.livingnorth.com/images/media/articles/food-and-drink/eat-and-drink/coffee.png?fm=webp\u0026w=1000",
-    "Url": "https://www.livingnorth.com/article/an-expert-guide-to-making-the-perfect-cappuccino-at-home",
-    "Title": "Cappuccino",
-    "Description": "An espresso-based coffee drink traditionally prepared with equal parts double espresso, steamed milk, and steamed milk foam.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-americano",
-    "Maker": "coffeelover",
-    "img": "https://www.foodandwine.com/thmb/k8YTwOlm3J86ejoVCsrvrgoA47g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Americano-FT-BLOG0523-b8e18cc340574cc9bed536cceeec7082.jpg",
-    "Url": "https://www.foodandwine.com/americano-coffee-7099361",
-    "Title": "Americano",
-    "Description": "Made by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-macchiato",
-    "Maker": "coffeelover",
-    "img": "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1254/MTk1MzA0NTgyOTIwODA3NzM4/what-is-a-macchiato.webp",
-    "Url": "https://parade.com/living/what-is-a-macchiato",
-    "Title": "Macchiato",
-    "Description": "An espresso coffee drink with a small amount of milk, usually foamed.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-mocha",
-    "Maker": "coffeelover",
-    "img": "https://bigcupofcoffee.com/wp-content/uploads/2023/05/cafe-mocha.jpg",
-    "Url": "https://bigcupofcoffee.com/how-to-make-caffe-mocha-recipe/",
-    "Title": "Mocha",
-    "Description": "A chocolate-flavored variant of a latte with the addition of cocoa powder and sweetener.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-flatwhite",
-    "Maker": "coffeelover",
-    "img": "https://www.thespruceeats.com/thmb/HQpQUtk7dMrYSan0AdUHctDI5Zg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/flat-white-recipe-765371-hero-01-d3378484dc6044259ac75c49407097ec.jpg",
-    "Url": "https://www.thespruceeats.com/flat-white-recipe-765371",
-    "Title": "Flat White",
-    "Description": "Originating from Australia, this coffee drink is prepared by pouring microfoam over a single or double shot of espresso.",
-    "Ratings": null
-  },
+    {
+        "Id": "coffee-latte",
+        "Maker": "coffeelover",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg/440px-Caffe_Latte_at_Pulse_Cafe.jpg",
+        "Url": "https://en.wikipedia.org/wiki/Latte",
+        "Title": "Latte",
+        "Description": "A coffee drink made with espresso and steamed milk, popular for its smooth, creamy texture.",
+        "Ratings": null,
+        "Price": ["$4.00", "$5.00", "$6.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-cappuccino",
+        "Maker": "coffeelover",
+        "img": "https://www.livingnorth.com/images/media/articles/food-and-drink/eat-and-drink/coffee.png?fm=webp\u0026w=1000",
+        "Url": "https://www.livingnorth.com/article/an-expert-guide-to-making-the-perfect-cappuccino-at-home",
+        "Title": "Cappuccino",
+        "Description": "An espresso-based coffee drink traditionally prepared with equal parts double espresso, steamed milk, and steamed milk foam.",
+        "Ratings": null,
+        "Price": ["$4.50", "$5.50", "$6.50"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-americano",
+        "Maker": "coffeelover",
+        "img": "https://www.foodandwine.com/thmb/k8YTwOlm3J86ejoVCsrvrgoA47g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Americano-FT-BLOG0523-b8e18cc340574cc9bed536cceeec7082.jpg",
+        "Url": "https://www.foodandwine.com/americano-coffee-7099361",
+        "Title": "Americano",
+        "Description": "Made by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.",
+        "Ratings": null,
+        "Price": ["$4.00", "$5.00", "$6.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-macchiato",
+        "Maker": "coffeelover",
+        "img": "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1254/MTk1MzA0NTgyOTIwODA3NzM4/what-is-a-macchiato.webp",
+        "Url": "https://parade.com/living/what-is-a-macchiato",
+        "Title": "Macchiato",
+        "Description": "An espresso coffee drink with a small amount of milk, usually foamed.",
+        "Ratings": null,
+        "Price": ["$5.00", "$6.00", "$7.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-mocha",
+        "Maker": "coffeelover",
+        "img": "https://bigcupofcoffee.com/wp-content/uploads/2023/05/cafe-mocha.jpg",
+        "Url": "https://bigcupofcoffee.com/how-to-make-caffe-mocha-recipe/",
+        "Title": "Mocha",
+        "Description": "A chocolate-flavored variant of a latte with the addition of cocoa powder and sweetener.",
+        "Ratings": null,
+        "Price": ["$5.00", "$6.00", "$7.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-flatwhite",
+        "Maker": "coffeelover",
+        "img": "https://www.thespruceeats.com/thmb/HQpQUtk7dMrYSan0AdUHctDI5Zg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/flat-white-recipe-765371-hero-01-d3378484dc6044259ac75c49407097ec.jpg",
+        "Url": "https://www.thespruceeats.com/flat-white-recipe-765371",
+        "Title": "Flat White",
+        "Description": "Originating from Australia, this coffee drink is prepared by pouring microfoam over a single or double shot of espresso.",
+        "Ratings": null,
+        "Price": ["$5.50", "$6.50", "$7.50"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
   {
     "Id": "coffee-ristretto",
     "Maker": "coffeelover",
@@ -71,69 +85,85 @@
     "Url": "https://coffeehero.com.au/blogs/news/what-is-a-ristretto-how-to-make-it",
     "Title": "Ristretto",
     "Description": "A \u0022short shot\u0022 of a more concentrated espresso coffee, it\u0027s made with the same amount of coffee but extracted with half the amount of water.",
-    "Ratings": null
+    "Ratings": null,
+    "Price": ["$5.00", "$6.00", "$7.00"],
+    "Size": ["Short", "Tall", "Grande"]
   },
-  {
-    "Id": "coffee-affogato",
-    "Maker": "coffeelover",
-    "img": "https://recipes.net/wp-content/uploads/2020/08/Affogato-recipe-1.jpg",
-    "Url": "https://recipes.net/drinks/coffee/affogato-recipe/",
-    "Title": "Affogato",
-    "Description": "A simple Italian dessert coffee that involves pouring a shot of espresso over a scoop of vanilla gelato or ice cream.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-cortado",
-    "Maker": "coffeelover",
-    "img": "https://www.foodandwine.com/thmb/KzfhJG9naqoKK6ubunTvOp1GhiU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Cortado-FT-BLOG0523-7e4f50be961e4a6490fdfa5a34d6e0f5.jpg",
-    "Url": "https://www.foodandwine.com/coffee/what-is-a-cortado-coffee",
-    "Title": "Cortado",
-    "Description": "A beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-turkish",
-    "Maker": "coffeelover",
-    "img": "https://www.simplyrecipes.com/thmb/vktfSmKY-5XBK6WtQkGAI1d9M14=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Turkish-Coffee-LEAD-03-5c1beaffb45848de8dba24884e0cbbed.jpg",
-    "Url": "https://www.simplyrecipes.com/how-to-make-turkish-coffee-7091144",
-    "Title": "Turkish Coffee",
-    "Description": "Prepared using very finely ground coffee beans unfiltered, brewed slowly with water and often sugar, served in a small cup.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-irish",
-    "Maker": "coffeelover",
-    "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/02/Irish-Coffee-2.jpg",
-    "Url": "https://downshiftology.com/recipes/irish-coffee/",
-    "Title": "Irish Coffee",
-    "Description": "A cocktail consisting of hot coffee, Irish whiskey, and sugar, stirred, and topped with cream.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-iced",
-    "Maker": "coffeelover",
-    "img": "https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg",
-    "Url": "https://www.allrecipes.com/recipe/21667/easy-iced-coffee/",
-    "Title": "Iced Coffee",
-    "Description": "Brewed coffee served cold with ice, and typically milk and sweetener.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-frappe",
-    "Maker": "coffeelover",
-    "img": "https://coffeehero.com.au/cdn/shop/articles/337733e5a37e7be4095dc8b9196a9e6b_2048x2048.jpg?v=1632498527",
-    "Url": "https://coffeehero.com.au/blogs/news/tagged/frappe",
-    "Title": "Frappe",
-    "Description": "A foam-covered iced coffee drink made from spray-dried instant coffee. It is very popular in Greece and Cyprus.",
-    "Ratings": null
-  },
-  {
-    "Id": "coffee-vienna",
-    "Maker": "coffeelover",
-    "img": "https://www.coffeedesk.com/blog/wp-content/uploads/2020/11/kawa_po_wiedensku_poziom-1.jpg",
-    "Url": "https://www.coffeedesk.com/blog/viennese-coffee-how-to-drink-it-recipe/",
-    "Title": "Vienna Coffee",
-    "Description": "Made by topping coffee with whipped cream. This traditional Austrian coffee is both simple and luxurious.",
-    "Ratings": null
-  }
+    {
+        "Id": "coffee-affogato",
+        "Maker": "coffeelover",
+        "img": "https://recipes.net/wp-content/uploads/2020/08/Affogato-recipe-1.jpg",
+        "Url": "https://recipes.net/drinks/coffee/affogato-recipe/",
+        "Title": "Affogato",
+        "Description": "A simple Italian dessert coffee that involves pouring a shot of espresso over a scoop of vanilla gelato or ice cream.",
+        "Ratings": null,
+        "Price": ["$6.00", "$7.00", "$8.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-cortado",
+        "Maker": "coffeelover",
+        "img": "https://www.foodandwine.com/thmb/KzfhJG9naqoKK6ubunTvOp1GhiU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Cortado-FT-BLOG0523-7e4f50be961e4a6490fdfa5a34d6e0f5.jpg",
+        "Url": "https://www.foodandwine.com/coffee/what-is-a-cortado-coffee",
+        "Title": "Cortado",
+        "Description": "A beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity.",
+        "Ratings": null,
+        "Price": ["$5.00", "$6.00", "$7.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-turkish",
+        "Maker": "coffeelover",
+        "img": "https://www.simplyrecipes.com/thmb/vktfSmKY-5XBK6WtQkGAI1d9M14=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Turkish-Coffee-LEAD-03-5c1beaffb45848de8dba24884e0cbbed.jpg",
+        "Url": "https://www.simplyrecipes.com/how-to-make-turkish-coffee-7091144",
+        "Title": "Turkish Coffee",
+        "Description": "Prepared using very finely ground coffee beans unfiltered, brewed slowly with water and often sugar, served in a small cup.",
+        "Ratings": null,
+        "Price": ["$5.50", "$6.50", "$7.50"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-irish",
+        "Maker": "coffeelover",
+        "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/02/Irish-Coffee-2.jpg",
+        "Url": "https://downshiftology.com/recipes/irish-coffee/",
+        "Title": "Irish Coffee",
+        "Description": "A cocktail consisting of hot coffee, Irish whiskey, and sugar, stirred, and topped with cream.",
+        "Ratings": null,
+        "Price": ["$5.00", "$6.00", "$7.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-iced",
+        "Maker": "coffeelover",
+        "img": "https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg",
+        "Url": "https://www.allrecipes.com/recipe/21667/easy-iced-coffee/",
+        "Title": "Iced Coffee",
+        "Description": "Brewed coffee served cold with ice, and typically milk and sweetener.",
+        "Ratings": null,
+        "Price": ["$4.00", "$5.00", "$6.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-frappe",
+        "Maker": "coffeelover",
+        "img": "https://coffeehero.com.au/cdn/shop/articles/337733e5a37e7be4095dc8b9196a9e6b_2048x2048.jpg?v=1632498527",
+        "Url": "https://coffeehero.com.au/blogs/news/tagged/frappe",
+        "Title": "Frappe",
+        "Description": "A foam-covered iced coffee drink made from spray-dried instant coffee. It is very popular in Greece and Cyprus.",
+        "Ratings": null,
+        "Price": ["$6.00", "$7.00", "$8.00"],
+        "Size": ["Short", "Tall", "Grande"]
+    },
+    {
+        "Id": "coffee-vienna",
+        "Maker": "coffeelover",
+        "img": "https://www.coffeedesk.com/blog/wp-content/uploads/2020/11/kawa_po_wiedensku_poziom-1.jpg",
+        "Url": "https://www.coffeedesk.com/blog/viennese-coffee-how-to-drink-it-recipe/",
+        "Title": "Vienna Coffee",
+        "Description": "Made by topping coffee with whipped cream. This traditional Austrian coffee is both simple and luxurious.",
+        "Ratings": null,
+        "Price": ["$4.50", "$5.50", "$6.50"],
+        "Size": ["Short", "Tall", "Grande"]
+    }
 ]

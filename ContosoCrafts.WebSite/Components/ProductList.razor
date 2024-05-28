@@ -21,6 +21,12 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">@product.Title</h5>
+                @for (var i = 0; i < product.Size.Length; i++)
+                {
+                    <div class="card-price-size">@product.Size.GetValue(i)</div>
+                    <div class="card-price-size">@product.Price.GetValue(i)</div>
+                    <br />
+                }
             </div>
             <div class="card-footer">
                 <small class="text-muted">

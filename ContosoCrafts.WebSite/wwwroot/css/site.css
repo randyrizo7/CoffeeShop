@@ -14,9 +14,14 @@
 }
 
 .card-columns .card-body {
-    height: 100px;
+    /*height: 100px; */
     font-family: 'Arial', sans-serif; /* Change font to Arial */
     background: #f7f3eb; /* Change background to a warm, coffee-like color */
+}
+
+.card-price-size {
+    display: inline-block;
+    width: 80px;
 }
 
 .card-columns .card-img {
